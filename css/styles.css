@@ -1,0 +1,363 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: serif;
+}
+/*--navigationbar--*/
+#nav-bar{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+	border-bottom: 3px solid rgb(185,60,204);
+}
+.navbar-brand img{
+	height: 63px;
+	padding-left: 30px;
+}	
+.navbar-nav li{
+	padding: 0 10px;
+}
+.navbar-nav li a{
+	padding: 0 10px;
+	float: right;
+	text-align: left;
+	transition: 0.4s ease;
+}
+#nav-bar ul li a:hover{
+	color: black !important;
+	font-size: 155%;
+	background: rgb(185,60,204);
+}
+.navbar{
+	background: black;
+	height: 65px;
+}
+.navbar-toggler{
+	border: none !important;
+}
+.nav-link{
+	color: white !important;
+	font-weight: 600;
+	font-size: 150%;
+}
+/*-----contact me-----*/
+#contact{
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../img/galaxy.jpg);
+	background-size: cover;
+	background-position: center;
+	color: #efefef !important;
+	background-attachment: fixed;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#contact h1{
+	text-align: center;
+	color: #efefef !important;
+	padding-bottom: 10px;
+
+}
+
+#contact h1::after
+{
+	content: '';
+	background: violet;
+	display: block;
+	height: 3px;
+	width: 170px;
+	margin: 10px auto 5px;
+}
+#contact h3::after{	
+	content: '';
+	background: violet;
+	display: block;
+	position: relative;
+	height: 3px;
+	width: 120px;
+	margin: 10px auto 5px;
+}
+.btn.btn-light{
+	text-align: center;
+	background-color: 	rgb(185,60,204);
+	border-color: black;
+	color: black;
+}
+#contact button{
+	text-align: center;
+	margin-left: 43%;
+	margin-top: 3%;
+	color: black;
+	font-size: 22px;
+}
+#contact a{
+	color: black;
+}
+#contact .btn.btn-light:hover{
+	color: black;	
+	background-color: rgb(185,60,204);
+	letter-spacing: normal;
+}
+.col-md-3.text-center{
+	margin-left: 12%;
+	margin-top: 3%;
+	color: white;
+}
+#contact p{
+
+	font-size: 18px;
+}
+.mail{
+	font-size: 20px !important;
+}
+.icon.text-center{
+	color: white;
+}
+.col-md-31{
+	color: white;
+	margin-top: 3%;
+	margin-left: 25% !important;
+}
+.col-md-31 h3{
+	text-align: center;
+}
+.col-md-31 p{
+	font-size: 19px !important;
+	color: rgb(245,245,255);
+}
+/*portfolio*/
+#portfolio{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: black;
+	border-bottom: 5px solid rgb(185,60,204);
+}
+#portfolio h1{
+	text-align: center;
+	color: black;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+#portfolio h1::after
+{
+	content: '';
+	background: rgb(185,60,204);
+	display: block;
+	height: 3px;
+	width: 170px;
+	margin: 10px auto 5px;
+}
+#portfolio h4{
+	color: grey;
+}
+.profile-pic{
+	margin-top: 40px !important;
+	margin-bottom: 40px !important;
+	margin: auto;
+}
+.profile-pic h2{
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 15px;
+	color: black !important;
+	margin-left: 30px;
+}
+.profile-pic h3{
+	font-size: 15px;
+	font-weight: bold;
+	margin-top: 15px;
+	color: black !important;
+}
+#portfolio p{
+	font-size: 18px;
+}
+.img-responsive{
+	width: 200px;
+	height: 200px;
+}
+.img-responsive1{
+	width: 100px;
+	height: 100px;
+	margin-top: 60px;
+}
+
+/*--home--*/
+#home{
+	background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../img/galaxy.jpg);
+	background-size: cover;
+	background-position: center;
+	color: #efefef !important;
+	background-attachment: fixed;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border-bottom: 5px solid rgb(185,60,204);
+}
+
+.line.anim-typewriter {
+	margin-left: 20%;
+	font-family: Helvetica;
+	font-size: 120px !important;
+	
+}
+.home1 p{
+	border-right: 1px solid white;
+	overflow: hidden;
+	white-space: nowrap;
+	animation: typing 5s steps(200) normal infinite,
+	           blink-caret 0.8s step-end infinite;
+	animation-iteration-count: infinite;
+}
+.home1 h3{
+	margin-left: 20%;
+	font-family: Helvetica;
+	font-size: 50px;
+}
+
+@keyframes blink-caret{
+	from,to{
+		border-color: transparent; 
+	}
+}
+
+@keyframes typing{
+	0%   {width: 0%;}
+	80%  {width: 100%;}
+	100% {width: 0%;}
+
+}
+
+.home2{
+	font-size: 180%;
+	margin-left: 45%;
+	margin-bottom: 0%;
+	margin-top: 10%;
+}
+.home2 a{
+	color: white;
+}
+.home2 a:hover{
+	color: white;
+
+}
+.fa.fa-facebook{
+	margin-left: 4%;
+}
+.fa.fa-quora{
+	margin-left: 4%;
+}
+.fa.fa-linkedin{
+	margin-left: 4%;
+}
+.fa.fa-github{
+	margin-left: -5%;
+}
+
+/*--about me--*/
+.abt{
+	background-color: #fff;
+	background-size: cover;
+	background-position: center;
+	color: #efefef !important;
+	background-attachment: fixed;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border-bottom: 5px solid rgb(185,60,204);
+}
+.abt h1{
+	font-weight: bold;
+	text-align: center;
+	color: black !important;
+	padding-bottom: 10px;
+}
+.abt h1::after{
+	content: '';
+	background: rgb(185,60,204);
+	display: block;
+	height: 3px;
+	width: 140px;
+	margin: 10px auto 5px;
+}
+.abt h4{
+	color: gray;
+}
+.text-center{
+	color: black;
+}
+#about .row{
+	margin-top: 50px;
+}
+.col-md-4{
+	margin: 40px auto;
+}
+.profile{
+	padding: 40px 50px 20px;
+	background-color: #efefef; 
+	color: black;
+	width: 350px;
+	height: 390px;
+	margin: auto;
+}
+
+
+.user{
+	margin-left: -13.5%;
+	width: 140px;
+	height: 140px;
+	border-radius: 50%;
+}
+.profile img{
+	top: -60px;
+	position: absolute;
+	left: calc(50% -20px);
+	border: 8px solid white;
+}
+.profile h3{
+	font-weight: bold;
+	margin-top: 40px;
+	color: black;
+
+}
+#about p{
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+}
+#about span{
+	font-weight: bold;
+}
+blockquote::before{
+	content: '“';
+	font-size: 50px;
+	color: purple;
+	position: relative;
+	line-height: 20px;
+	bottom: -15px;
+	right: 5px;
+}
+blockquote::after{
+	content: '”';
+	font-size: 50px;
+	color: purple;
+	position: relative;
+	line-height: 20px;
+	bottom: -15px;
+	left: 5px;
+
+}
+.profile:hover{
+	box-shadow: 0 0 15px 5px rgba(0,0,0,0.2);
+	cursor: pointer;
+	transition: 0.5s;
+}
+/*--footer--*/
+#footer{
+	background-color: black;
+	background-size: cover;
+	background-position: center;
+	color: #fff !important;
+	background-attachment: fixed;
+	padding-top: 10px;
+	padding-bottom: 1px;
+	border-top: 5px solid rgb(185,60,204);
+}
+#footer p{
+	color: white;
+}
